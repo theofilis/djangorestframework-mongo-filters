@@ -5,8 +5,8 @@
 Clone the project from github.
 
 ```
-git clone git@github.com:theofilis/djangorestframework-mongo-filters.git
-cd djangorestframework-mongo-filters
+git clone git@github.com:theofilis/djangorestframework-mongo.git
+cd djangorestframework-mongo
 python setup.py install
 ```
 
@@ -15,7 +15,7 @@ python setup.py install
 ```python
 from django.contrib.auth.models import User
 from myapp.serializers import UserSerializer
-from rest_framework_mongo_filter import filters
+from rest_framework_mongo import filters
 from rest_framework import generics
 
 

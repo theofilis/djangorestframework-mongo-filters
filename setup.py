@@ -23,7 +23,7 @@ setup(
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
     # https://packaging.python.org/en/latest/single_source_version.html
-    version='0.0.1.dev1',
+    version='0.0.1.dev2',
 
     description='Django REST Framework MongoDB Filters',
     long_description=long_description,
@@ -64,7 +64,7 @@ setup(
     # You can just specify the packages manually here if your project is
     # simple. Or you can use find_packages().
     package_dir={'': 'src'},
-    packages=['rest_framework_mongo_filter'],
+    packages=['rest_framework_mongo', 'rest_framework_mongo/filters'],
 
     # List run-time dependencies here.  These will be installed by pip when
     # your project is installed. For an analysis of "install_requires" vs pip's
