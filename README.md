@@ -6,6 +6,8 @@ Clone the project from github.
 
 ```
 git clone git@github.com:theofilis/djangorestframework-mongo-filters.git
+cd djangorestframework-mongo-filters
+python setup.py install
 ```
 
 ## Example
